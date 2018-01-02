@@ -1,2 +1,92 @@
 <!--pages/consult/consult.wxml-->
-<text>咨询</text>
+<view class="sim-nav sim-nav-col-4">
+  <view class="sim-nav-item">
+    <text class="fa fa-wechat color-error text-white"></text>
+    <text>图标</text>
+  </view>
+  <view class="sim-nav-item">
+    <text class="fa fa-wechat color-success text-white"></text>
+    <text>图标</text>
+  </view>
+  <view class="sim-nav-item">
+    <text class="fa fa-wechat color-info text-white"></text>
+    <text>图标</text>
+  </view>
+  <view class="sim-nav-item">
+    <text class="fa fa-wechat color-warning text-white"></text>
+    <text>图标</text>
+  </view>
+</view>
+<image style="width: 100%; height: 250rpx" src="../../images/风景.jpg" mode="scaleToFill"></image>
+<scroll-view scroll-x="true" style="width: 100%;white-space: nowrap;" class="test-tab">
+  <view class="test-tabs">标签一</view>
+  <view class="test-tabs">标签二</view>
+  <view class="test-tabs">标签三</view>
+  <view class="test-tabs test-tabs-active">标签四</view>
+  <view class="test-tabs">标签五</view>
+  <view class="test-tabs">标签六</view>
+  <view class="test-tabs">标签五</view>
+  <view class="test-tabs">标签六</view>
+</scroll-view>
+<view class="sim-list-media">
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/ting.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/timg.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/ting.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/timg.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/ting.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+    <view class="sim-list-item">
+      <view>
+        <image src="../../images/timg.jpg"></image>
+        <view>
+          <text class="text-h6">标题</text>
+          <text class="text-gray">相关信息</text>
+        </view>
+      </view>      
+      <view><text class="fa fa-angle-right"></text></view>
+    </view>
+  </view>

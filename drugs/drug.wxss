@@ -1,0 +1,4 @@
+@import "wxss/font-awesome.wxss";
+@import "wxss/list.wxss";
+@import "wxss/nav.wxss";
+@import "wxss/tabs.wxss";

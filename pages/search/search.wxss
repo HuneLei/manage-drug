@@ -1,1 +1,23 @@
 /* pages/search/search.wxss */
+
+.search-input {
+  border: solid 1rpx #B5B5B5;
+  border-radius: 20rpx;
+  width: 600rpx;
+  margin: 20rpx;
+  font-size: 25rpx;
+  padding: 0 55rpx;
+  display: inline-block;
+}
+
+.section-test {
+  display: inline-block;
+  position: relative;
+}
+
+.section-test icon {
+  position: absolute;
+  font-size: 25rpx;
+  left: 35rpx;
+  top: 38rpx;
+}

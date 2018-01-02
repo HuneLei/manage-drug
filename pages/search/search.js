@@ -7,7 +7,9 @@ Page({
   data: {
   
   },
-
+  bindconfirm:function() {
+    console.log("点击搜索了！");
+  },
   /**
    * 生命周期函数--监听页面加载
    */

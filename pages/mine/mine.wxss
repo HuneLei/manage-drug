@@ -1,1 +1,42 @@
 /* pages/mine/mine.wxss */
+.top-view {
+  background-color: #D1CBCB;
+  height: 1248rpx;
+}
+
+.mine-view {
+  width: 100%;
+  height: 330rpx;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mine-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+}
+
+.mine-button {
+  display: inline-block;
+  position: absolute;
+   z-index: 2;
+  font-size: 28rpx;
+  width: 280rpx;
+}
+
+.mine-view-first {
+  border: solid 1px #000;
+  background-color: white;
+  padding: 15rpx;
+}
+
+.mine-view-scond {
+  margin-top: 20rpx;
+  border: solid 1px #000;
+  background-color: white;
+  padding: 15rpx;
+}

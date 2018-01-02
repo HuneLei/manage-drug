@@ -1,1 +1,14 @@
 /* pages/consult/consult.wxss */
+
+.test-tabs {
+  display: inline-block;
+  width: 130rpx;
+  font-size: 14px;
+  padding: 12rpx;
+  text-align: center;
+}
+
+.test-tabs-active {
+  color: #f36063;
+  border-bottom: 2px solid #f36063;
+}

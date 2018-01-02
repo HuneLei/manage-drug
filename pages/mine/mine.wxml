@@ -1,2 +1,27 @@
 <!--pages/mine/mine.wxml-->
-<text>我的</text>
+<view class='top-view'>
+  <view class='mine-view'>
+    <image class='mine-image' src="../../images/嗯哼.jpg" mode="scaleToFill">
+    </image>
+    <button type="default" class='mine-button'>登录/注册</button>
+  </view>
+  <view class='mine-view-first'>
+    <view>
+      <text>我的消息</text>
+    </view>
+    <view>
+      <text>我的消息</text>
+    </view>
+    <view>
+      <text>我的消息</text>
+    </view>
+  </view>
+  <view class='mine-view-scond'>
+    <view>
+      <text>我的消息</text>
+    </view>
+    <view>
+      <text>我的消息</text>
+    </view>
+  </view>
+</view>

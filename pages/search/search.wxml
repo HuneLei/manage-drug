@@ -1,2 +1,135 @@
 <!--pages/search/search.wxml-->
-<text>搜药</text>
+<view class="section-test">
+  <input placeholder-style="font-size:12px" placeholder="请输入要搜索的内容" focus class='search-input' confirm-type="search" bindconfirm="bindconfirm" />
+  <icon type="search" size="15" color="{{item}}" />
+</view>
+<view class="sim-nav sim-nav-col-2">
+  <view class="sim-nav-item" style="height:100rpx;">
+    <text>西药</text>
+  </view>
+  <view class="sim-nav-item" style="height:100rpx;">
+    <text>中药</text>
+  </view>
+</view>
+<view class="sim-list-media">
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/ting.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/timg.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/ting.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/timg.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/ting.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/timg.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/ting.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/timg.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/ting.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+  <view class="sim-list-item">
+    <view>
+      <image src="../../images/timg.jpg"></image>
+      <view>
+        <text class="text-h6">标题</text>
+        <text class="text-gray">相关信息</text>
+      </view>
+    </view>
+    <view>
+      <text class="fa fa-angle-right"></text>
+    </view>
+  </view>
+</view>

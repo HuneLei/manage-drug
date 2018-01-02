@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/consult/consult",
+    "pages/mine/mine",
     "pages/search/search",
-    "pages/mine/mine"
+    "pages/consult/consult",
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
